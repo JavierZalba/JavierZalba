@@ -1,0 +1,174 @@
+body {
+    background-image: url("../images/fondo2pantalla.webp");
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.ClassA{
+    display: flex;
+    flex-flow:column wrap;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+b{
+    display: flex;
+    flex-flow:column nowrap;
+    text-align: center;
+}
+a{
+    color: black;
+}
+
+.Classmenu1{
+    display: flex;
+    flex: 1 1 auto;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: burlywood;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;    
+}
+.classfotofondo{
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+}
+.Classtitulo{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    font-size: 100px;
+    color: brown;
+    
+    text-shadow: 0 0 30px red;
+}
+.Classp{
+    font-size: 40px;
+    color: brown;
+    text-align: center;
+    text-shadow: 0 0 30px brown;
+    font-weight: bold;
+
+}
+footer { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: blanchedalmond;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    position: absolute;
+    background-size: cover;
+}
+pie {
+    color: black;
+    font-family: monospace;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding-top: 10px;
+}
+.pie-imagen {
+    color: black;
+    font-family: monospace;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: right;
+    position: relative;
+    margin-right: 10px;
+}
+
+.Registro{
+    font-weight:bold;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 20px;
+    color: brown;
+    text-shadow: 0 0 30px #fff;
+    text-align: center;
+  }
+  .producto1 {
+    width: 300px;
+    height: 300px;
+    text-align: center;
+}
+ 
+  .resplandor{
+    font-size: 20px;
+    padding-top: 20px;
+    color: brown;
+    text-shadow: 0 0 30px rgb(161, 56, 56);
+    text-align: center;
+}
+    .productopadre{
+    display: flex;
+    flex-wrap:wrap ;
+    }
+    .card1 {
+    background-color: black;
+    margin-bottom: 40px;
+    margin-left: 35px;
+    margin-right: 16px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    }
+.producto1-info {
+    text-align: center;
+    color: rgb(150, 236, 150);
+    font-family: monospace;
+}
+.botonCompra {
+    text-align: center;
+    font-family: monospace;
+    border-radius: 5px;
+    width: 100px;
+    text-decoration: none;
+    margin-left: 33%;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px white;
+}
+.Classmenuenvio{
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    width: 10%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: burlywood;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;    
+}
+
+@media all and (max-width: 800px){
+    .ClassA{
+        flex-direction: row;
+    }
+    .Classtitulo{
+        display: flex;
+        flex-wrap: nowrap;
+        text-align: center;
+    }
+}
+
+@media all and (max-width:600px){
+    .productopadre{
+        flex-direction:column;
+    }
+}
