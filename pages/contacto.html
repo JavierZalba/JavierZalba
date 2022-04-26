@@ -5,67 +5,75 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../images/images69.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/styles.css">
     <title>CONTACTO</title>
 </head>
 <body>
     <header class="ClassA">
-        <nav>
-            <ul>
-                <li class="Classmenu1"><a href="../index.html">Inicio</a></li>
-                <li class="Classmenu1"><a href="productos.html">Productos</a></li>
-                <li class="Classmenu1"><a href="nosotros.html">Sobre nosotros</a></li>
-                <li class="Classmenu1"><a href="contacto.html">Contacto</a></li>
-                <li class="Classmenu1"><a href="envios.html">Envios</a></li>
-                <li class="Classmenu1"><a href="https://www.coderhouse.com/online/desarrollo-web-online">Pagina del curso</a></li>
-            </ul>
-        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="../images/logo.png" alt="logo" width="50px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active " aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="pages/nosotros.html">Sobre nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="https://www.coderhouse.com/online/desarrollo-web-online">Pagina del curso</a>
+                  </li>
+                </ul>
+                <form class="d-flex">
+                </form>
+              </div>
+            </div>
+          </nav>
     </header>
-    <h1 class="Classtitulo">MusicSound</h1>
-    <section>
-        <form class="Registro">
-            <fieldset>
-                <legend>INFORMACION DE CONTACTO</legend>
-                <div>
-                    <label for="Nombre">Nombre</label>
-                    <input type="text" id="Nombre" required>
-                </div>
-                <br>
-                <div>
-                    <label for="Apellido">Apellido</label>
-                    <input type="text" id="Apellido" required>
-                </div>
-                <br>
-                <div>
-                    <label for="Email">Email</label>
-                    <input type="text" id="Email" required>
-                </div>
-                <br>
-                <div>
-                    <label for="NumeroTelefono">Numero de telefono</label>
-                    <input type="number" id="NumeroTelefono" required>
-                </div>
-                <br>
-                <div>Seleccione tipo de consulta:
-                    <select name="Consulta">
-                        <option value="">Precios</option>
-                        <option value="">Envios</option>
-                        <option value="">Album disponible</option>
-                    </select>
-                </div>
-                <br>
-                <div>
-                    <p><label for="Consulta">Escribe aqui tu consulta</label></p>
-                    <textarea name="Cosnulta" required></textarea>
-                </div>
-                <br>
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Limpiar">
-            </fieldset>
-        </form>
-    </section>
+    <h1 class="Classtitulo">MusicSound</h1>   
+        <div class="container">
+         <h2 class="text-warning" >INFORMACION DE CONTACTO </h2>
+         <div>
+         </div>
+          <form action="#">
+            <div class="row">
+        <div class="col">
+      <input type="text" class="form-control" placeholder="Nombre">
+        </div>
+        <div class="col">
+             <input type="text" class="form-control" placeholder="Apellido">
+           </div>
+         </div>  
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Ingrese email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+        
+            <button type="submit" class="btn btn-default">
+                        Ingresar
+                   </button>
+          </form>
+        </div>
+
     <footer id="Final">
         <h3>Derechos reservados MusicSound ®</h3>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </body>
 </html>
